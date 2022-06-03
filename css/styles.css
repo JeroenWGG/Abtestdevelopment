@@ -6,9 +6,27 @@
 body {
   background-image: url("../image/penguin.png");
   background-repeat: no-repeat;
-  background-size: 35% auto;
+  background-size: 15% auto;
   background-position: right bottom;
   font-family: openSansRegular;
   font-size: 20px;
   margin: 20px;
+}
+
+div {
+  background-color: #f6f6f6;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+div > div {
+  background-color: #fff;
+}
+
+div > div > div {
+  background-color: #f6f6f6;
 }
