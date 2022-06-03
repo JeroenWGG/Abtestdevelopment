@@ -1,0 +1,14 @@
+@font-face {
+  font-family: openSansRegular;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+body {
+  background-image: url("../image/penguin.png");
+  background-repeat: no-repeat;
+  background-size: 35% auto;
+  background-position: right bottom;
+  font-family: openSansRegular;
+  font-size: 20px;
+  margin: 20px;
+}
