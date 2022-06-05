@@ -1,4 +1,7 @@
-let parent_1 = document.getElementById("parent_1");
-let child1 = document.getElementById("child_1");
-let clone = child1.cloneNode(true);
-parent_1.appendChild(clone);
+let parentElement = document.getElementById("parent_1");
+let childElement = document.getElementById("child_2");
+let elementClone = childElement.cloneNode(true);
+
+elementClone.innerText = "Child 7";
+elementClone.setAttribute("id", "child_7");
+parentElement.appendChild(elementClone);

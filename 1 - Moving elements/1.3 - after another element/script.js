@@ -1,8 +1,11 @@
-let element = document.getElementById("child_6");
+let childElement = document.getElementById("child_6");
 let afterSibling = document.getElementById("child_2");
 
-function insertAfter(referenceNode, newNode) {
-  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+function insertAfter(referenceElement, newElement) {
+  referenceElement.parentNode.insertBefore(
+    newElement,
+    referenceElement.nextSibling
+  );
 }
 
-insertAfter(afterSibling, element);
+insertAfter(afterSibling, childElement);
