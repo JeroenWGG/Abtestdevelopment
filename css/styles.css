@@ -30,3 +30,7 @@ div > div {
 div > div > div {
   background-color: #f6f6f6;
 }
+
+input {
+  padding: 5px;
+}
